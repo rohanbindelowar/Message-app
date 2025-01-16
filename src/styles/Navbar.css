@@ -7,7 +7,7 @@
 
 }
 .itemButton:hover{
-    font-size: 16px;
+    opacity: 80%;
 }
 .create{
     background: #19e0c6;
