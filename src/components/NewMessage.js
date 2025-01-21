@@ -54,6 +54,7 @@ const NewMessage = (props) => {
 
         
         alert("Message sent successfully!");
+        window.location.href="/"
         
         
     }
