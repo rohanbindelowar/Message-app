@@ -8,7 +8,7 @@ const Science = (props) => {
   return (
     <div>
       <CreateNewMessage />
-      <h2 className="title">Science</h2>
+      <h2 className="title">Science Message Box!</h2>
       {scienceMessages.length === 0 ? (
         <h3 className="emptyMessage">There is no message! Create a new message.</h3>
       ) : (
