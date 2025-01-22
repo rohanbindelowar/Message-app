@@ -13,7 +13,7 @@ const AllGroup = (props) => {
          <h2 className="title">All Message Box!</h2>
         {
           dataArr.length==0?  <h3 className="emptyMessage">There is no message! Create a new message.</h3>:
-          dataArr.map((item,i)=><MessageBox item={item}/>)
+          dataArr.map((item,i)=><MessageBox key={i} item={item}/>)
         }
          
     </div>
