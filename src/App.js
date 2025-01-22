@@ -17,12 +17,13 @@ function App() {
   function handleNewData(newData){
     const tempData = data;
     tempData.push(newData);
+    console.log(tempData);
     setData(tempData);
 
-      console.log(newData);
     localStorage.setItem(newData.time, JSON.stringify(newData))
-
+    
   }
+  console.log(data);
   return (
     <div className="App">
       <Header/>

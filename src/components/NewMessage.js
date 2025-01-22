@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import '../styles/NewMessage.css'
+import { useNavigate } from "react-router-dom";
 
 const NewMessage = (props) => {
     const [message, setMessage] = useState("");
@@ -9,6 +10,7 @@ const NewMessage = (props) => {
         arts: false,
         engineer: false,
     });
+    const navigate = useNavigate();
 
     function readyToSubmit() {
         return message.trim() !== "" && Object.values(boards).some((selected) => selected);
@@ -52,9 +54,9 @@ const NewMessage = (props) => {
 
         props.handleNewData(newData);
 
-        
+        console.log(newData.boards);
         alert("Message sent successfully!");
-        window.location.href="/"
+        navigate("/");
         
         
     }

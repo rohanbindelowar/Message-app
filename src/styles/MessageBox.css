@@ -1,0 +1,29 @@
+
+.messageBox{
+    border: 1px solid gold;
+    width: 60%;
+    margin: 10px auto;
+    background: #cacaca;
+    box-shadow: 0px 1px 5px;
+    padding: 30px 0;
+}
+.messageInfo{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 30px;
+    
+}
+.time{
+    background: rgb(26, 233, 26);
+    padding: 10px;
+    border-radius: 50px;
+}
+.messageBody{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
