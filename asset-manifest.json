@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Message-app/static/css/main.00e61da6.css",
+    "main.js": "/Message-app/static/js/main.a51f55f1.js",
+    "static/media/logo.png": "/Message-app/static/media/logo.1833af6e411460d01911.png",
+    "index.html": "/Message-app/index.html",
+    "main.00e61da6.css.map": "/Message-app/static/css/main.00e61da6.css.map",
+    "main.a51f55f1.js.map": "/Message-app/static/js/main.a51f55f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00e61da6.css",
+    "static/js/main.a51f55f1.js"
+  ]
+}
